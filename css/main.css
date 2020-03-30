@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body {
+    font-family: 'Muli', sans-serif;
+}
+
 .navbar-default {
     height: 92px;
     background-image: none;
@@ -8,10 +13,6 @@
     border-radius: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-}
-
-.navbar-default .col-md-9 {
-    padding-top: 36px;
 }
 
 .navbar-default {
@@ -34,4 +35,78 @@
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     background-color: #fff;
+}
+
+.navbar-default li.active {
+    border-left: none;
+}
+
+.navbar-default li {
+    float: left;
+    height: 20px;
+    margin-top: -20px;
+    padding: 0px 11px;
+    padding-top: 46px;
+    padding-bottom: 71px;
+    border-left: 1px solid #f1f1f1;
+}
+
+.navbar-default li:last-child {
+    border-left: none;
+}
+
+.navbar-default li::after {
+    position: absolute;
+    background: #E2B90D;
+    height: 25px;
+    content: '';
+    width: 1px;
+    bottom: 33px;
+    left: -1px;
+}
+
+.navbar-default li:first-child::after {
+    content: none;
+}
+
+.navbar-default li:last-child::after {
+    content: none;
+}
+
+.navbar-nav li {
+    font-size: 18px;
+}
+
+.navbar-nav>li .row .col-md-8 p {
+    margin: 0;
+}
+
+.navbar-brand {
+    padding: 5px 15px;
+}
+
+.navbar-collapse {
+    padding-right: 0;
+}
+
+.icones img {
+    padding-top: 17px;
+}
+
+.orcamento {
+    background-color: #C9A50F;
+    padding-left: 59px !important;
+    padding-right: 76px !important;
+}
+
+.box-camera {
+    height: 735px;
+    position: relative;
+    z-index: -1;
+    padding-top: 350px;
+}
+
+.box-destaques {
+    height: 447px;
+    background: url(../img/bck-destaques.jpg) no-repeat top center;
 }

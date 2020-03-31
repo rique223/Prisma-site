@@ -89,6 +89,19 @@ body {
     padding-right: 0;
 }
 
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    background-color: #fff;
+    color: #C6A00D;
+}
+
+.nav .open>a,
+.nav .open>a:hover,
+.nav .open>a:focus {
+    background-color: #fff;
+}
+
 .icones img {
     padding-top: 17px;
 }
@@ -109,4 +122,80 @@ body {
 .box-destaques {
     height: 447px;
     background: url(../img/bck-destaques.jpg) no-repeat top center;
+}
+
+.box-destaques h3,
+p {
+    font-weight: bold;
+}
+
+.box-destaques h3 {
+    font-size: 20px;
+    color: #F5C920;
+    text-transform: uppercase;
+}
+
+.box-destaques p {
+    font-size: 48px;
+    color: #fff;
+    line-height: 53px;
+    margin: 0;
+}
+
+.box-destaques a {
+    text-transform: uppercase;
+    margin-top: 16px;
+    font-size: 15px;
+    border-radius: 0;
+    width: 325px;
+}
+
+.deskspace1 {
+    padding-top: 41px;
+}
+
+.deskspace2 {
+    padding-left: 113px;
+    padding-top: 37px;
+}
+
+.drop-list {
+    text-transform: uppercase;
+    width: 725px;
+    background-color: #B49000;
+    border: none;
+    border-radius: 0;
+}
+
+.drop-list li {
+    min-width: 725px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    float: center;
+    height: 53px;
+    border-left: none;
+    padding-top: 16px;
+    margin-top: 0;
+    padding-bottom: 0;
+    border-left: none;
+    padding-left: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.drop-list li:last-child {
+    border-bottom: none;
+}
+
+.saiba-mais {
+    width: 220px!important;
+}
+
+.box-servicos {
+    height: 1907px;
+    background: url(../img/bck-servicos.jpg);
+}
+
+.frame-servico {
+    background-color: #000;
 }

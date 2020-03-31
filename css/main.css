@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -124,8 +125,11 @@ body {
     background: url(../img/bck-destaques.jpg) no-repeat top center;
 }
 
-.box-destaques h3,
-p {
+.box-destaques h3 {
+    font-weight: bold;
+}
+
+.box-destaques p {
     font-weight: bold;
 }
 
@@ -196,6 +200,210 @@ p {
     background: url(../img/bck-servicos.jpg);
 }
 
+.box-servicos h2:first-child {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 10px;
+}
+
+.box-servicos h2:last-child {
+    font-size: 60.72px;
+    font-weight: 800;
+    color: #B49000;
+    letter-spacing: 10px;
+}
+
 .frame-servico {
-    background-color: #000;
+    background-color: #fff;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.03);
+}
+
+.frame-servico img {
+    min-width: 262.5px;
+}
+
+.frame-servico h3 {
+    padding: 0 17px;
+    font-weight: bold;
+}
+
+.frame-servico p {
+    padding: 0 17px;
+}
+
+.frame-servico a {
+    padding: 4px 17px;
+    height: 33px;
+    width: 142px;
+    margin-bottom: 27px;
+    margin-left: 75px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C6A00D;
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}
+
+.frame-servico a:hover {
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}
+
+.frame-servico img::after {
+    background-color: yellow;
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 5px;
+    left: 0;
+    top: 0;
+}
+
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.btn-default {
+    text-shadow: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    filter: none;
+    filter: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    background-color: #fff;
+    background-position: 0;
+}
+
+.nservicos {
+    padding-left: 0;
+    padding-bottom: 59px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.nservicos h2:last-child {
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nnews {
+    padding-left: 0;
+    padding-bottom: 59px;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.info a {
+    padding: 4px 17px;
+    height: 33px;
+    width: 142px;
+    margin-bottom: 27px;
+    margin-left: 0px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C6A00D;
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}
+
+.info p {
+    min-height: 100px;
+}
+
+.info img {
+    padding-bottom: 15px;
+}
+
+.info h3 {
+    min-height: 60px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #9D780B;
+}
+
+.nnews h2 {
+    text-transform: uppercase;
+}
+
+.nnews h2:last-child {
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 10px;
+}
+
+.nnews h2:first-child {
+    font-size: 60.72px;
+    font-weight: 800;
+    color: #B49000;
+    letter-spacing: 10px;
+    margin-top: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vermais h3 {
+    width: 70%;
+    margin: .7em auto;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 300;
+    color: #000;
+}
+
+.vermais h3::before,
+.vermais h3::after {
+    content: "";
+    display: inline-block;
+    width: 50%;
+    margin: 0 .5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 1px solid;
+}
+
+.vermais h3::after {
+    margin: 0 -55% 0 .5em;
+}
+
+.vermais span {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.02);
 }

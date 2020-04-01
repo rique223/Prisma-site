@@ -104,6 +104,10 @@ body {
     background-color: #fff;
 }
 
+.icones {
+    border-left: 1px solid #f1f1f1;
+}
+
 .icones img {
     padding-top: 17px;
 }
@@ -253,6 +257,26 @@ body {
 }
 
 .frame-servico a:hover {
+    padding: 4px 17px;
+    height: 33px;
+    width: 142px;
+    margin-bottom: 27px;
+    margin-left: 60px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C6A00D;
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}
+
+.frame-servico a:hover {
     border: 2px solid #E2B90D;
     border-radius: 0;
 }
@@ -328,6 +352,26 @@ body {
 }
 
 .info a {
+    padding: 4px 17px;
+    height: 33px;
+    width: 142px;
+    margin-bottom: 27px;
+    margin-left: 0px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C6A00D;
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}
+
+.info a:hover {
     padding: 4px 17px;
     height: 33px;
     width: 142px;
@@ -448,6 +492,7 @@ body {
     font-size: 31.86px;
     font-weight: 800;
     margin-top: 0;
+    color: #000;
 }
 
 .leis .col-md-9 p {
@@ -507,6 +552,15 @@ body {
 }
 
 .formnew2 button {
+    background-color: #000;
+    border: none;
+    border-radius: 0;
+    height: 47px;
+    color: #fff;
+    width: 70px;
+}
+
+.bnews:hover {
     background-color: #000;
     border: none;
     border-radius: 0;

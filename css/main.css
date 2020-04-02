@@ -822,7 +822,7 @@ footer .col-md-2:first-child {
 
 .box-clientes {
     background: url(../img/bck-servicos.jpg);
-    height: 638px;
+    height: 1460px;
 }
 
 .box-banner-clientes .container {
@@ -849,4 +849,29 @@ footer .col-md-2:first-child {
     position: absolute;
     top: 408px;
     left: 375px;
+    padding: 24px 100px;
+}
+
+.clientes h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #C9A50F;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -56px;
+    top: 245px;
+    background: transparent!important;
+}
+
+.owl-next {
+    position: absolute;
+    right: -56px;
+    top: 245px;
+    background: transparent!important;
 }

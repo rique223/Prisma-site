@@ -875,3 +875,83 @@ footer .col-md-2:first-child {
     top: 245px;
     background: transparent!important;
 }
+
+
+/*********************************************************Diferenciais********************************************************/
+
+.box-banner-dif {
+    background: url(../img/bck-diferenciais.jpg);
+    height: 446px;
+}
+
+.box-banner-dif .container {
+    padding-top: 134px;
+}
+
+.box-banner-dif h1 {
+    color: #F5C920;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 50px;
+}
+
+.box-banner-dif p {
+    color: #fff;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.diferenciais {
+    background-color: #fff;
+    position: absolute;
+    top: 408px;
+    left: 375px;
+    padding: 33px 100px;
+}
+
+.drone {
+    position: absolute;
+    left: 977px;
+    top: 194px;
+    z-index: 998;
+}
+
+.diferenciais .row .col-md-6,
+.diferenciais .row .col-md-12 {
+    padding-top: 108px;
+}
+
+.diferenciais .row .col-md-6 img,
+.diferenciais .row .col-md-12 img {
+    padding-bottom: 41px;
+}
+
+.diferenciais .row .col-md-6 p {
+    min-height: 105px;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #424242;
+}
+
+.diferenciais .row .col-md-12 p {
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #424242;
+    padding-bottom: 89px;
+}
+
+.bottext p:first-child {
+    padding-top: 47px;
+}
+
+.bottext p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #0D0D0D;
+}

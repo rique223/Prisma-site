@@ -120,6 +120,11 @@ body {
 
 .icones img {
     padding-top: 17px;
+    padding-left: 18px;
+}
+
+.icones img:first-child {
+    padding-left: 38px;
 }
 
 .orcamento {
@@ -1123,6 +1128,11 @@ footer .col-md-2:first-child {
 
 /********************************************Leis*********************************/
 
+.box-leis {
+    background: url(../img/bck-servicos.jpg);
+    height: 2267px;
+}
+
 .lista-leis {
     list-style: none;
     margin: 0;
@@ -1185,4 +1195,134 @@ footer .col-md-2:first-child {
     padding-right: 41px;
     padding-top: 40px;
     min-height: 1184px;
+}
+
+
+/***************************servicos**************************************************/
+
+.serv-items .space2 {
+    background-color: #B49000;
+}
+
+.space-servico-1 {
+    background-color: #fff;
+    min-height: 1916px;
+}
+
+.space-servico-1 .row {
+    padding: 41px 81px;
+}
+
+.space-servico-2 {
+    background-color: #B49000;
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 28px;
+    min-height: 1916px;
+}
+
+.space-servico-2 .col-md-12 {
+    padding-left: 41px;
+}
+
+.space-servico-2 .col-md-12 a {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.space-servico-1 h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 45px;
+    margin-top: 0;
+    color: #9D780B;
+}
+
+.space-servico-1 h3 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #000000;
+}
+
+.space-servico-1 p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.space-servico-1 .col-md-6 p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 25px;
+    color: #3F3F3F;
+}
+
+.space-servico-1 .col-md-12 ul li {
+    list-style: none;
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+    padding-bottom: 30px;
+}
+
+.space-servico-1 .col-md-12 ul li::before {
+    content: "\25A0";
+    color: #C6A00D;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.link-serv {
+    background: url(../img/ico-mais.png) no-repeat right;
+    width: 100%;
+    height: 100%;
+    display: block;
+    padding-right: 39px;
+    color: #fff;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.link-serv:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.servicos-detalhes {
+    background-color: #fff;
+    padding-top: 101px;
+    padding-left: 382px;
+    margin-bottom: 29px;
+}
+
+.servicos-detalhes h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60.7229px;
+    line-height: 74px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #B49000;
+    margin-bottom: 61px;
+    margin-top: 0;
+}
+
+.servicos-detalhes h2 {
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 61px;
 }

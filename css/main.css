@@ -1119,3 +1119,70 @@ footer .col-md-2:first-child {
 .destaque a:hover {
     text-decoration: none;
 }
+
+
+/********************************************Leis*********************************/
+
+.lista-leis {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.space-leis1 {
+    background-color: #fff;
+    max-height: 1481px;
+    padding: 67px 100px;
+}
+
+.space-leis1 h2 {
+    margin: 0;
+    margin-bottom: 11px;
+    margin-left: 25px;
+    font-weight: 800;
+    font-size: 31.8621px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.space-leis1 .col-md-10 p {
+    margin-left: 25px;
+    font-size: 16.5161px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.titulo-leis {
+    padding-bottom: 73px!important;
+    border: none!important;
+}
+
+.space-leis1 .row:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-bottom: 7px;
+}
+
+.lista-leis .col-md-11 {
+    min-height: 27px;
+}
+
+.lista-leis p {
+    padding-top: 3px;
+    font-size: 16.5161px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.space-leis2 {
+    background-color: #fff;
+    max-height: 1481px;
+    padding: 67px 100px;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 40px;
+    min-height: 1184px;
+}

@@ -985,3 +985,126 @@ footer .col-md-2:first-child {
     color: #000;
     margin-top: 0;
 }
+
+
+/************************************************************news-detalhes***************************************************/
+
+.box-detalhes {
+    background: url(../img/bck-servicos.jpg);
+    height: 1853px;
+}
+
+.news-detalhes {
+    background-color: #fff;
+    padding-top: 101px;
+    padding-left: 382px;
+    margin-bottom: 29px;
+}
+
+.news-detalhes h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 60.7229px;
+    line-height: 74px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #B49000;
+    margin-bottom: 0;
+}
+
+.news-detalhes h2 {
+    padding-bottom: 40px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 0;
+}
+
+.post .col-md-12 {
+    background-color: #fff;
+}
+
+.post .col-md-12 {
+    background-color: #fff;
+}
+
+.post .col-md-8 p,
+.post .col-md-8 h2 {
+    padding: 0 96px;
+}
+
+.post .col-md-8 p {
+    padding-bottom: 15px;
+}
+
+.post .col-md-8 p:nth-child(2) {
+    padding-top: 82px;
+}
+
+.post .col-md-8 p:nth-child(8) {
+    padding-bottom: 198px;
+}
+
+.post .col-md-8 h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #9D780B;
+}
+
+.space1 {
+    background-color: #fff;
+    min-height: 1481px;
+}
+
+.space2 {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 40px;
+    min-height: 1481px;
+}
+
+.destaque p:first-child {
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: 0.2em;
+    color: #787878;
+}
+
+.destaque h2 {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    color: #9D780B;
+}
+
+.destaque p:nth-child(3) {
+    font-size: 14px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.destaque a {
+    padding: 4px 17px;
+    height: 33px;
+    width: 142px;
+    margin-bottom: 27px;
+    text-shadow: 0 1px 0 #fff;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+    border-color: transparent;
+    border-color: transparent;
+    background-color: transparent;
+    color: #C6A00D;
+    border: 2px solid #E2B90D;
+    border-radius: 0;
+}

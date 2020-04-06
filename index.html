@@ -32,7 +32,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-    <nav class="navbar navbar-default" style="border: none;">
+    <nav class="navbar navbar-default menurolagem" style="border: none;">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2">
@@ -254,27 +254,13 @@
                             <li><a href="#">News</a></li>
                             <li><a href="#">Contato</a></li>
                             <li class="icones">
-                                <div class="row">
-                                    <div class="col-md-6" style="padding-right: 0;">
-                                        <a href="#" style="padding: 0;"> <img style="padding-left: 10px; padding-right: 10px;" src="./img/ico-facebook.png" alt="Facebook"></a>
-
-                                    </div>
-                                    <div class="col-md-6" style="padding-left: 0;">
-                                        <a href="#"><img style=" padding-right: 10px; " src="./img/ico-instagram.png " alt="Instagram "></a>
-                                    </div>
-                                </div>
+                                <a href="#" class="icone-navbar1"> <img style="padding-left: 10px; padding-right: 10px;" src="./img/ico-facebook.png" alt="Facebook"></a>
+                                <a href="#" class="icone-navbar2"><img style=" padding-right: 10px; " src="./img/ico-instagram.png " alt="Instagram "></a>
                             </li>
-                            <li class="orcamento ">
-                                <a href="# " style="padding: 0; ">
-                                    <div class="row ">
-                                        <div class="col-md-9 " style="color: #fff; ">
-                                            <p style="margin: 0; ">Solicitar</p>
-                                            <span style="font-weight: bold; ">Orçamento</span>
-                                        </div>
-                                        <div class="col-md-3 ">
-                                            <img src="./img/ico-whatsapp.png " alt="Whatsapp ">
-                                        </div>
-                                    </div>
+                            <li class="orcamento">
+                                <a href="#" style="padding: 0;">
+                                    <p>Solicitar <br> <span style="font-weight: bold; ">Orçamento</span></p>
+                                    <img src="./img/ico-whatsapp.png " alt="Whatsapp ">
                                 </a>
                             </li>
                         </ul>
@@ -291,7 +277,7 @@
         </div>
     </div>
 
-    <div class="box-destaques ">
+    <div class="box-destaques hidden-xs hidden-sm">
         <div class="container ">
             <div class="row ">
                 <div class="col-md-6 deskspace1 " style="padding-left: 0; ">
@@ -338,18 +324,26 @@
         </div>
     </div>
 
-    <div class="box-servicos ">
-        <div class="container ">
-            <div class="row ">
-                <div class="col-md-12 text-left nservicos ">
+    <div class="box-servicos hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-left nservicos">
                     <h2>Conheça nossos</h2>
                     <h2>Serviços</h2>
                 </div>
             </div>
 
-            <div class="row ">
+            <div class="row">
+                <div class="col-md-3">
+                    <article class="frame-servico">
+                        <img class="img-responsive" src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
                 <div class="col-md-3 ">
-                    <article class="frame-servico ">
+                    <article class="frame-servico">
                         <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
                         <h3>Aerolevantamento</h3>
                         <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
@@ -357,7 +351,7 @@
                     </article>
                 </div>
                 <div class="col-md-3 ">
-                    <article class="frame-servico ">
+                    <article class="frame-servico">
                         <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
                         <h3>Aerolevantamento</h3>
                         <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
@@ -365,15 +359,7 @@
                     </article>
                 </div>
                 <div class="col-md-3 ">
-                    <article class="frame-servico ">
-                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
-                        <h3>Aerolevantamento</h3>
-                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
-                        <a href="# " class="btn btn-default ">Mais detalhes</a>
-                    </article>
-                </div>
-                <div class="col-md-3 ">
-                    <article class="frame-servico ">
+                    <article class="frame-servico">
                         <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
                         <h3>Aerolevantamento</h3>
                         <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
@@ -381,8 +367,10 @@
                     </article>
                 </div>
             </div>
+
             <br>
-            <div class="row ">
+
+            <div class="row">
                 <div class="col-md-3 ">
                     <article class="frame-servico ">
                         <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
@@ -419,16 +407,115 @@
         </div>
     </div>
 
-    <div class="container " style="padding-bottom: 29px; ">
-        <div class="row ">
-            <div class="col-md-12 text-left nnews ">
+    <div class="box-servicos hidden-md hidden-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center nservicos">
+                    <h2>Conheça nossos</h2>
+                    <h2>Serviços</h2>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <article class="frame-servico">
+                        <img class="img-responsive " src="./img/img-drone.png " alt="Drone ">
+                        <h3>Aerolevantamento</h3>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam quis volutpat massa ligula varius ac. Purus hac est feugiat praesent...</p>
+                        <a href="# " class="btn btn-default ">Mais detalhes</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container hidden-sm hidden-xs" style="padding-bottom: 29px;">
+        <div class="row">
+            <div class="col-md-12 text-center nnews">
                 <h2>news</h2>
                 <h2>informativos e novidades</h2>
             </div>
         </div>
 
-        <div class="row info ">
-            <div class="col-md-6 ">
+        <div class="row info">
+            <div class="col-md-6">
                 <img src="./img/img-trimble.png " alt="Trimble ">
                 <span>5 de fevereiro de 2015</span>
                 <h3>O que é Georreferenciamento de Imóveis Rurais?</h3>
@@ -458,7 +545,49 @@
         </div>
     </div>
 
-    <div class="box-footer">
+    <div class="container hidden-md hidden-lg" style="padding-bottom: 29px;">
+        <div class="row">
+            <div class="col-xs-12 text-center nnews">
+                <h2>news</h2>
+                <h2>informativos e novidades</h2>
+            </div>
+        </div>
+
+        <div class="row info">
+            <div class="col-xs-12 text-center">
+                <img class="img-responsive" src="./img/img-trimble.png " alt="Trimble ">
+                <span>5 de fevereiro de 2015</span>
+                <h3>O que é Georreferenciamento de Imóveis Rurais?</h3>
+                <p>A Certificação do Imóvel Rural foi criada pela Lei 10.267/01. O processo é feito exclusivamente pelo Incra. Este documento é exigido para toda alteração de área ou de seu(s) titular(es) em Cartório (de acordo com os prazos estabelecidos...</p>
+                <a class="btn btn-default " href="# ">Continuar lendo</a>
+            </div>
+        </div>
+
+        <div class="row info">
+            <div class="col-xs-12 text-center">
+                <img class="img-responsive" src="./img/img-topografia.png " alt="Topografo ">
+                <span>5 de fevereiro de 2015</span>
+                <h3>CAR-Cadastro Ambiental Rural</h3>
+                <p>O Cadastro Ambiental Rural (CAR) é um instrumento fundamental para auxiliar no processo de regularização ambiental de propriedades e posses rurais. Consiste no levantamento de informações georreferenciadas do imóvel, com delimitação das
+                    Áreas de Proteção Permanente (APP), Reserva Legal (RL), remanescentes de vegetação...</p>
+                <a class="btn btn-default " href="# ">continuar lendo</a>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-xs-12 vermais text-center ">
+                <a href=" ">Ver mais noticias
+                    <span class="icone ">
+                        <svg width="45 " height="15 " viewBox="0 0 15 15 " fill="none " xmlns="http://www.w3.org/2000/svg ">
+                            <path d="M14.291 8.45258H8.42353V14.32H5.86743V8.45258H0V5.86743H5.86743V0H8.42353V5.86743H14.291V8.45258Z " fill="white "/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-footer hidden-sm hidden-xs">
         <div class="container">
             <a href="#" style="text-decoration: none;">
                 <div class="row leis">
@@ -470,13 +599,38 @@
                         <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam <br> quis volutpat...</p>
                     </div>
                     <div class="col-md-1" style="padding-top: 39px;">
-                        <img class="img-responsive " src="./img/ico-decretos.png " alt=" ">
+                        <img class="img-responsive" src="./img/ico-decretos.png " alt=" ">
                     </div>
                 </div>
             </a>
 
             <div class="row ">
                 <div class="col-md-12 text-center img-instagram">
+                    <img class="img-responsive " src="./img/img-instagram.png " alt="Instagram ">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box-footer hidden-md hidden-lg">
+        <div class="container">
+            <a href="#" style="text-decoration: none;">
+                <div class="row leis">
+                    <div class="col-xs-3">
+                        <img class="img-responsive " src="./img/ico-leis.png " alt="Icone Leis">
+                    </div>
+                    <div class="col-xs-7">
+                        <h2>Leis e Decretos</h2>
+                        <p>Ultrices tincidunt amet, consequat eu metus eleifend ipsum augue neque. Aliquam <br> quis volutpat...</p>
+                    </div>
+                    <div class="col-xs-2" style="padding-top: 23%;">
+                        <img class="img-responsive" src="./img/ico-decretos.png " alt=" ">
+                    </div>
+                </div>
+            </a>
+
+            <div class="row ">
+                <div class="col-xs-12 text-center img-instagram">
                     <img class="img-responsive " src="./img/img-instagram.png " alt="Instagram ">
                 </div>
             </div>
@@ -521,7 +675,7 @@
         <div class="container " style="padding-bottom: 20px; ">
             <div class="row ">
                 <div class="col-md-2 ">
-                    <img class="footer-logo " src="./img/brand-footer.png " alt="Logo Prisma Engenharia ">
+                    <img class="footer-logo img-responsive" src="./img/brand-footer.png " alt="Logo Prisma Engenharia ">
                 </div>
                 <div class="col-md-3 " style="padding-left: 37px; ">
                     <div class="stroke1 ">

@@ -853,7 +853,7 @@ footer .col-md-2:first-child {
 .clientes {
     background-color: #fff;
     position: absolute;
-    top: 408px;
+    top: 505px;
     left: 375px;
     padding: 24px 100px;
 }
@@ -1493,6 +1493,7 @@ footer .col-md-2:first-child {
     }
     .vermais a::after {
         left: 96%;
+        width: 15px;
     }
     .box-footer .col-xs-3 {
         padding-top: 17%;
@@ -1610,5 +1611,46 @@ footer .col-md-2:first-child {
     .drop-list li {
         min-width: initial;
         padding-left: 4%;
+    }
+    .box-banner-institucional {
+        background: url(../img/bck-institucional.jpg) no-repeat;
+        height: 495px;
+    }
+    .box-banner-institucional .container {
+        padding-top: 0;
+    }
+    .institucional .col-md-8 {
+        padding-right: 88px;
+        padding-top: 0;
+    }
+    .institucional .col-md-8 {
+        padding-right: 15px;
+    }
+    .institucional {
+        margin-bottom: 408px;
+    }
+    .institucional .container {
+        height: 998px;
+        margin-top: -46px;
+    }
+    #my-navbar {
+        background-color: #fff;
+        border: none;
+        margin-top: -21px;
+    }
+    .navbar-nav {
+        margin-bottom: 0;
+    }
+    .box-banner-clientes .container {
+        padding-top: 0;
+    }
+    .box-banner-clientes {
+        background-repeat: no-repeat;
+        height: 457px;
+    }
+    .clientes {
+        position: inherit;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 }

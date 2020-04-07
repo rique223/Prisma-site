@@ -292,27 +292,11 @@ body {
     padding: 0 17px;
 }
 
-.frame-servico a {
-    padding: 4px 17px;
-    height: 33px;
-    width: 142px;
-    margin-bottom: 27px;
-    margin-left: 60px;
-    text-shadow: 0 1px 0 #fff;
-    background-image: none;
-    background-image: none;
-    background-image: none;
-    background-image: none;
-    background-repeat: no-repeat;
-    border-color: transparent;
-    border-color: transparent;
-    background-color: transparent;
-    color: #C6A00D;
-    border: 2px solid #E2B90D;
-    border-radius: 0;
-}
-
-.frame-servico a:hover {
+.frame-servico a,
+.frame-servico a:hover,
+.frame-servico a:visited,
+.frame-servico a:active,
+.frame-servico a:focus {
     padding: 4px 17px;
     height: 33px;
     width: 142px;
@@ -407,27 +391,11 @@ body {
     padding-top: 30px;
 }
 
-.info a {
-    padding: 4px 17px;
-    height: 33px;
-    width: 142px;
-    margin-bottom: 27px;
-    margin-left: 0px;
-    text-shadow: 0 1px 0 #fff;
-    background-image: none;
-    background-image: none;
-    background-image: none;
-    background-image: none;
-    background-repeat: no-repeat;
-    border-color: transparent;
-    border-color: transparent;
-    background-color: transparent;
-    color: #C6A00D;
-    border: 2px solid #E2B90D;
-    border-radius: 0;
-}
-
-.info a:hover {
+.info a,
+.info a:hover,
+.info a:visited,
+.info a:active,
+.info a:focus {
     padding: 4px 17px;
     height: 33px;
     width: 142px;
@@ -608,16 +576,11 @@ body {
     height: 47px;
 }
 
-.formnew2 button {
-    background-color: #000;
-    border: none;
-    border-radius: 0;
-    height: 47px;
-    color: #fff;
-    width: 70px;
-}
-
-.bnews:hover {
+.formnew2 button,
+.formnew2 button:hover,
+.formnew2 button:focus,
+.formnew2 button:active,
+.formnew2 button:visited {
     background-color: #000;
     border: none;
     border-radius: 0;
@@ -710,17 +673,11 @@ footer .col-md-2:first-child {
     margin-top: 20px;
 }
 
-.brota {
-    background-color: #C9A50F;
-    color: #fff;
-    border-radius: 5px;
-    width: 140.5px;
-    position: absolute;
-    left: 22px;
-    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
-}
-
-.brota:hover {
+.brota,
+.brota:hover,
+.brota:visited,
+.brota:active,
+.brota:focus {
     background-color: #C9A50F;
     color: #fff;
     border-radius: 5px;
@@ -1573,5 +1530,85 @@ footer .col-md-2:first-child {
     footer .col-md-4,
     footer .col-md-1 {
         min-height: 100px;
+    }
+    .box-servicos h2:last-child {
+        font-size: 36px;
+    }
+    .footer-logo {
+        position: initial;
+        padding-left: 22%;
+    }
+    .brota {
+        position: initial;
+    }
+    .vermais a {
+        padding-left: 6%;
+    }
+    .frame-servico a,
+    .frame-servico a:hover,
+    .frame-servico a:visited,
+    .frame-servico a:active,
+    .frame-servico a:focus {
+        margin-left: 0;
+    }
+    .brota,
+    .brota:hover,
+    .brota:visited,
+    .brota:active,
+    .brota:focus {
+        position: initial;
+    }
+    .navbar .container-fluid .row .col-md-10 {
+        padding-right: 0px;
+        padding-top: 11%;
+    }
+    .navbar-nav li {
+        width: 94%;
+        border: none;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:hover,
+    .navbar-default .navbar-nav>.active>a:focus {
+        background-color: transparent;
+    }
+    .navbar-default li {
+        padding-top: 0;
+    }
+    .navbar .container-fluid {
+        padding: 0;
+    }
+    .orcamento {
+        padding-top: 7%!important;
+    }
+    .orcamento a {
+        padding: 0px 40px!important;
+    }
+    .icone-navbar1,
+    .icone-navbar2 {
+        display: inline-block !important;
+        float: inherit;
+        padding: 0 !important;
+    }
+    .icone-navbar1 {
+        padding-left: 36%!important;
+    }
+    .navbar-collapse.in {
+        overflow-y: inherit;
+    }
+    .navbar-collapse {
+        border: none;
+    }
+    .centro {
+        text-align: center;
+    }
+    .navbar-nav .open .dropdown-menu {
+        position: absolute;
+        background-color: #B49000;
+        margin-top: -8%;
+        padding-top: 4%;
+    }
+    .drop-list li {
+        min-width: initial;
+        padding-left: 4%;
     }
 }

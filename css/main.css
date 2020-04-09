@@ -181,8 +181,8 @@ body {
 .box-camera {
     height: 735px;
     position: relative;
-    z-index: -1;
-    padding-top: 350px;
+    z-index: 0;
+    margin-bottom: 1%;
 }
 
 .box-destaques {
@@ -1729,10 +1729,9 @@ footer .col-md-2:first-child {
     }
     .servicos-detalhes h2 {
         margin-top: 6%;
-        ssss
     }
     .box-leis {
-        text-align: center!important;
+        text-align: center !important;
     }
     .space-servico-1 {
         min-height: auto;
@@ -1786,5 +1785,49 @@ footer .col-md-2:first-child {
         line-height: 20px;
         text-transform: uppercase;
         color: #FFFFFF;
+    }
+    #camera_wrap_4 {
+        height: 200px;
+    }
+    .box-camera {
+        height: 200px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1280px) {
+    .navbar-collapse {
+        padding-left: 0;
+    }
+    .nav>li>a {
+        padding: 10px 2px;
+    }
+    .icones img:first-child {
+        padding-left: 0;
+    }
+    .icones img {
+        padding-top: 11px;
+        padding-left: 0;
+    }
+    .navbar-default li {
+        padding: 0px 1px;
+        padding-top: 46px;
+        padding-bottom: 71px;
+    }
+    .orcamento {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .navbar-default li::after {
+        bottom: 37px;
+    }
+    .navbar-brand {
+        padding: 16px 15px;
+    }
+    .vermais a::after {
+        width: 347px;
+    }
+    .navbar .container-fluid .row .col-md-2,
+    .navbar .container-fluid .row .col-md-10 {
+        padding-left: 0;
     }
 }

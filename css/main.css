@@ -911,15 +911,15 @@ footer .col-md-2:first-child {
 .diferenciais {
     background-color: #fff;
     position: absolute;
-    top: 408px;
+    top: 503px;
     left: 375px;
-    padding: 33px 100px;
+    padding: 108px 100px;
 }
 
 .drone {
     position: absolute;
     left: 977px;
-    top: 194px;
+    top: 294px;
     z-index: 998;
 }
 
